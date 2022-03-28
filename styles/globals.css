@@ -14,3 +14,91 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.LoginWrapper{
+  max-width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:2%;
+}
+
+.LogoWrapper{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.wrap {
+  max-width: 800px;
+  min-width: 500px;
+  margin: 0 auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+header {
+  background: #252525;
+  padding: 2rem;
+  color: #FFFFFF;
+  font-size: 30px;
+  border-bottom: 5px solid #07C7F7;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+header div {
+  display: inline-block;
+}
+.btn-wrap {
+  float: right;
+  position: relative;
+}
+.live-status {
+  color: #07C7F7;
+  font-weight: 300;
+  margin-right: 35px;
+}
+.btn {
+  width: 100px;
+}
+.live-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+}
+.main {
+  padding: 50px 0;
+  text-align: center;
+  background: #333;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.main .mb-3{
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+}
+
+.open {
+  background: #8FF23E;
+  box-shadow: 0 0 6px 3px #8FF23E;
+  animation: blinkGreen 1.2s infinite;
+}
+@keyframes blinkGreen {
+  from {background: #8FF23E; box-shadow: 0 0 1px 1px #8FF23E;}
+  50% {box-shadow: 0 0 8px 2px #8FF23E;}
+  to {background: #8FF23E; box-shadow: 0 0 1px 1px #8FF23E;}
+}
+.closed {
+  background: #E71D45;
+  box-shadow: 0 0 8px 3px #E71D45;
+  animation: blinkRed 1.2s infinite;
+}
+@keyframes blinkRed {
+  from {background: #E71D45; box-shadow: 0 0 1px 1px #E71D45;}
+  50% {box-shadow: 0 0 8px 2px #E71D45;}
+  to {background: #E71D45; box-shadow: 0 0 1px 1px #E71D45;}
+}
