@@ -55,9 +55,9 @@ app
       return handle(req, res);
     });
 
-    server.listen(4000, (err) => {
+    server.listen(3000, (err) => {
       if (err) throw err;
-      console.log(`server ready on 4000`);
+      console.log(`server ready on 3000`);
     });
   })
   .catch((err) => {
